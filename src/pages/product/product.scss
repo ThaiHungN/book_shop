@@ -1,0 +1,59 @@
+.product{
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+        padding: 0 16rem;
+
+
+        flex-wrap: wrap;
+        // flex-basis: 23%;
+
+        .item{
+            width: 21%;
+
+            border: 2px solid #000000;
+            border-bottom: none;
+            
+            .top{
+                // height: 20rem;
+                width: 100%;
+
+                img{
+                    width: 100%;
+                }
+            }
+
+            .footer{
+                .info{
+                    .name-author{
+                        box-sizing: border-box;
+                        padding: 0.5rem 1rem;
+                    }
+
+                    .price{
+                        box-sizing: border-box;
+                        padding-left: 1rem;
+                        padding-bottom: 0.5rem;
+                    }
+                }
+
+                .add-to-cart{
+                    text-align: center;
+                    padding: 0.7rem 0;
+                    background: #2E5288;
+                    color: #ffffff;
+
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
+                }
+            }
+
+            margin-bottom: 3rem;
+            
+        }
+    }
+}
